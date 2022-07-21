@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'YSJPodTest_Example' do
+  pod 'YSJPodTest', :path => '../'
+
+  target 'YSJPodTest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
