@@ -10,9 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var titleLabel: UILabel!
+    private let TITLE_LABEL_TEXT = "Welcome to YSJPodTest"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        titleLabel.text = TITLE_LABEL_TEXT
     }
 
     override func didReceiveMemoryWarning() {
